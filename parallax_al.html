@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Parallax - AL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Alisa Luomanmäki">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/luomanmaki.css" rel="stylesheet">
+        <link href="css/parallax.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- Header osio -->
+            <header>
+                <h1>Bootstrap ja jQuery harjoitukseni - AL</h1>
+                <div class="col-12 padding">
+                    <!-- navigation here -->
+                    <nav class="navbar navbar-expand-md nav_tausta">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#painike">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="painike">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Oulainen</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="tourists_al.html">Turisteille</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="images_al.html">Kuvia</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="parallax_al.html"><h2>Parallax</h2></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="bmi_al.html">BMI</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <!-- Parallax -->
+
+        <div id="mylly" class="parallax">
+            <div class="caption">
+
+                <span class="border">Keväinen mylly</span>
+                <h3 class="border padding alert-light">Kevät saapuu pohjoiseen</h3>
+            </div>
+        </div>
+        <!-- Itkuni kylmään talveen -->
+        <div class="text">
+            <h3 class="padding_bottom_pieni">Runo kukka ihmiseltä, joka haluaa vehreyttä</h3>
+            <p>
+                Kauniita kukkia maa päällään kantaa.
+                Niillä koristelen kotini.
+                Vihreää ja vehreää odotan kesää.
+            </p>
+            <p>   
+                Taas meni rahaa kesän kukkapenkkiin.
+                Kukkaroa kirveltää, mutta silmät levätä saa.
+            </p>
+            <p>   
+                Taas perse pystyssä rikkaruohoja nyppään.
+                Kastelen mullaan ja kännykkää hilpaan.
+
+            </p>
+            <blockquote class="blockquote text-right">
+                <p class="mb-0">Olispa jo kesä... saamari</p>
+                <footer class="blockquote-footer"><cite title="Source Title">Alisa Luomanmäki</cite></footer>
+            </blockquote>
+        </div>
+
+
+        <div id="kreikka" class="parallax">
+        </div>
+
+        <div class="text">
+            <p class="display-4">
+                Ihana Kreikan lomani <3
+            </p>
+            <p>
+                Etelään kaipaan
+            </p>
+
+        </div>
+
+        <div id="talvi" class="parallax">
+            <!-- place for the text over the image -->
+            <div class="caption">
+                <!-- the actual text -->
+                <p class="padding_bottom_pieni"><span class="border">Tänne kylmään jäätiin</span></p>
+                <p><span class="border">kiitos korona</span></p>
+            </div>
+        </div>
+        <!-- Footer osio -->
+        <div class="container-fluid"> <!-- Tämä Footer pitää kirjoittaa näin että toimii kuten ennenkin
+            piti hieman taistella että sai parallaxin toimimaan tällä sivulla, kun teen hieman
+            omien oppien mukaan. Tää oli surullinen työ koska ärsyttää olla sisällä ja pihalla kylmä vielä-->
+            <footer>
+                <div class="row footer">
+                    <div class="col-md-6 padding">
+                        <p class="text-center text-md-left">Alisa Luomanmäki</p>
+                        <p class="text-center text-md-left">2020</p>
+                    </div>
+                    <div class="col-md-6 padding">
+                        <p class="text-center text-md-right">Bootstrap and jQuery</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+
+        <!-- Bootstrap osio -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+        crossorigin="anonymous"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+        crossorigin="anonymous"></script>
+    </body>
+</html>

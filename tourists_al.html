@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tourists - AL</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Alisa Luomanmäki">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/luomanmaki.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2fb659ed0b.js" 
+        crossorigin="anonymous"></script> <!--Käytän uudempaa versiota -->
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- Header osio -->
+            <header>
+                <h1>Bootstrap ja jQuery harjoitukseni - AL</h1>
+                <div class="col-12 padding">
+                    <!-- navigation here -->
+                    <nav class="navbar navbar-expand-md nav_tausta">
+                        <button class="navbar-toggler" type="button"
+                                data-toggle="collapse" data-target="#painike">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="painike">
+                            <ul class="nav navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Oulainen</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="tourists_al.html">
+                                        <h2>Turisteille</h2></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="images_al.html">
+                                        Kuvia</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="parallax_al.html">
+                                        Parallax</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="bmi_al.html">BMI</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <!-- Main osio -->
+            <main>
+                <div class="row padding">
+                    <!-- Sarake -->
+                    <div class="col-12">
+                        <h2 class="text-uppercase padding_bottom_pieni">Tourists</h2>
+                    </div>
+
+                    <div class="col-sm-12 col-md-4 col-lg-3 padding_bottom">
+
+                        <h3 class="padding_bottom_pieni">Kirjato 
+                            <span class="badge badge-info">Info</span></h3>
+                        <p>Oulaisten kirjasto löytyy turisti info-piste. 
+                            Pääoven ulko-oven vierestä löytyy
+                            tiedotustaulu paikka kunnan tulevista tapahtumista. 
+                            Sisältä löytyy virallinen infopiste.
+                            Siellä on esitteitä paikkakunnasta monella eri kielellä
+                            ja kirjastontyöntekijät neuvovat kysyjää.
+                        </p>
+                        <p>Sisällä on myös näyttelyitä ja laaja kirja valikoima. 
+                            Pelihuone nuorille ja mahdollisuus kuunnella
+                            musiikkia levyiltä. Kirjastolla on tapahtumia eri ryhmille.</p>
+                        <p>Tervetuloa</p>
+                        <p><a href="https://www.oulainen.fi/kirjasto" target="_blank">
+                                Oulaisten kirjasto</a></p>
+                        <img src="img/oulaistenkirjasto.jpg" class="img-fluid" 
+                             alt="Kirjaston sisäänkäynti">
+                    </div>
+                    <!-- Sarake -->
+                    <div class="col-sm-12 col-md-4 col-lg-3 padding_bottom">
+                        <div id="accordion">
+                            <h3 class="padding_bottom_pieni">Pieniä infoja</h3>
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h3>
+                                        <button class="btn btn-link btn-lg" 
+                                                data-toggle="collapse" data-target="#collapseOne" 
+                                                aria-expanded="false" aria-controls="collapseOne">
+                                            Oulaisten uimahalli Lähde
+                                        </button>
+                                    </h3>
+
+                                </div>
+                                <div id="collapseOne" class="collapse" 
+                                     aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p class="padding">
+                                            Oulaisiin aukaistiin uusi uimahalli 2017. 
+                                            Altaita löytyy kuntouimareille, lapsille ja
+                                            vesijumppalaisille. Rentoudu hierovissa 
+                                            vesisuihkuissa. Vesiliukumäki antaa vauhtia hurjapäille.
+                                            Lopuksi voi herkutella kahvion herkuilla.</p>
+                                        <p class="text-center padding">
+                                            <a href="https://www.oulainen.fi/uimahalli-lahde"
+                                               target="_blank">
+                                                Uimahalli Lähde</a></p>
+                                        <p class="text-center">
+                                            <a href="https://www.facebook.com/lahdeoulainen/" 
+                                               target="_blank"><i class="fab fa-facebook">
+                                                </i></a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h3>
+                                        <button class="btn btn-link btn-lg" 
+                                                data-toggle="collapse" data-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                            Tiesitkö tätä? 
+                                        </button>
+                                    </h3>
+
+                                </div>
+                                <div id="collapseTwo" class="collapse"
+                                     aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <p>Oulaisten logon on suunnitellut Ahti 
+                                            Hammar vuonna 1953. Se on yksi Suomen
+                                            harvinaisuuksista yksityiskohtineen ja
+                                            värineen. Siinä on rapu vihreällä nurmella.</p>
+                                        <p>Jos vaakunaa haluaa käyttää sivustollaan
+                                            sitä varten pitää pyytää kaupungilta lupa.</p>
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Oulainen.vaakuna.svg" 
+                                             class="img-fluid"
+                                             alt="Kultainen rapu vihreällä nurmella">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h3>
+                                        <button class="btn btn-link btn-lg" 
+                                                data-toggle="collapse" data-target="#collapseThree" 
+                                                aria-expanded="false" aria-controls="collapseThree">
+                                            Sananlaskuja Oulaisista
+                                        </button>
+                                    </h3>
+
+                                </div>
+                                <div id="collapseThree" class="collapse" 
+                                     aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body">
+                                        <ul class="sanaparret">
+                                            <li class="padding">
+                                                Hyvä, hyvä sano Hynnisen muori
+                                                ku pankolta putos.</li>
+                                            <li class="padding">
+                                                Leipä loppu Lehtolasta,
+                                                piti lähtiä Äijälään.</li>
+                                            <li class="padding">
+                                                Pulakasta mentiin Pussaan,
+                                                sano Piipsjärven isäntä ku taloja vaihto.</li>
+                                            <li class="padding">
+                                                Sepä on ku Asikaisen rakennus.</li>
+                                            <li class="padding">
+                                                Totinen ku Upolan pottuvoi.</li>
+                                        </ul>
+                                        <p class="text-right">Lähde:
+                                            <a href="http://www.kirjastovirma.fi/ylivieska/sananparsia"
+                                               target="_blank">Kirjasto Virma</a></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <figure>
+                                <img class="img-fluid" src="img/juna.jpg" alt="Juna Ukko-Pekka">
+                                <figcaption class="text-center padding">
+                                    Museojuna Ukko-Pekka
+                                </figcaption>
+                            </figure>
+
+                        </div>
+                    </div>
+                    <!-- Sarake -->
+                    <div class="col-sm-12 col-md-4 col-lg-3 padding_bottom">
+                        <h3 class="padding_bottom_pieni">Oulaisten kirkko</h3>
+                        <figure>
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Oulainen_Church.jpg" 
+                                 class="img-fluid">
+                            <figcaption class="text-center padding">
+                                Wikipedia: Oulaisten kirkko ennen vuotta 1927
+                            </figcaption>
+                        </figure>
+                        <p>"Ensimmäinen kirkko rakennettiin samalle paikalle vuonna 1682.
+                            Nykyinen Oulaisten puukirkko on rakennettu vuonna 1753.
+                            Oulaisen kirkko on Kalajoen rovastikunnan ja 
+                            Pyhäjokilaakson vanhin kirkko. Kirkon kellot soivat 
+                            kirkon vieressä olevasta kellotapulista.
+                            Kirkkoon mahtuu maksimissaan 700 henkilöä, 
+                            kun urkuparven istuimet lasketaan mukaan."</p>
+                        <p class="text-right">
+                            <a href="https://www.oulaistenseurakunta.fi/kirkko"
+                               target="_blank">Oulaisten SRK</a></p>
+                    </div>
+                    <!-- Sarake -->
+                    <div class="col-sm-12 col-md-4 col-lg-3 padding_bottom">
+                        <h3 class="padding_bottom_pieni">Vihaisia rapuja 
+                            <span class="badge badge-danger">VAROKAA</span></h3>
+                        <p>Olette kuulleet vihaisista linnuista!</p>
+                        <p>Muttette vihaisista ravuista!</p>
+
+                        <p>Näitä tarttuu onkiin ja verkkoihin. Lapset itkevät 
+                            ja mummot pyörtyvät.</p>
+                        <p class="display-4">Nakkaa takaisin Pyhäjokeen!</p>
+                        <figure>
+                            <img class="img-fluid" src="img/rapu.jpg" alt="Äkäinen rapu">
+                            <figcaption class="text-center padding">
+                                Kuvaaja siskon mies ja muokannut eri sisko
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+            </main>
+            <!-- Footer osio -->
+            <footer>
+                <div class="row footer">
+                    <div class="col-md-6 padding">
+                        <p class="text-center text-md-left">Alisa Luomanmäki</p>
+                        <p class="text-center text-md-left">2020</p>
+                    </div>
+                    <div class="col-md-6 padding">
+                        <p class="text-center text-md-right">Bootstrap and jQuery</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <!-- Bootstrap osio -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+        crossorigin="anonymous"></script>
+
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+        crossorigin="anonymous"></script>
+    </body>
+</html>

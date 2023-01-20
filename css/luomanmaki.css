@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17.3.2020, 9:24:36
+    Author     : Alisa Luomanäki
+90, 62, 54
+
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+
+/* Tekstimäärittelyjä */
+h1, h2, h3, h4, h5{
+    font-family: 'Abel', sans-serif;
+    color: #5A3E36;
+}
+
+h1{
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+p, figcaption, label{ 
+    color: #5A3E36;
+}
+
+a{
+    color: #CD5C5C;
+    font-size: 1.2rem;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #9B1B30;
+    font-size: 1.2rem;
+}
+
+/* Väri määrittelyjä */
+
+body{
+    background: #fbf0e9;
+}
+
+header{
+    background: linear-gradient(to left, #33ccff 0%, #F3E0BE 80%);
+    padding: 1rem;
+}
+
+header a{
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.tausta_vari{
+    background: linear-gradient(to bottom, #F3E0BE 0%, #fbf0e9 100%);
+}
+
+/*Footerin määrittelyt. Että Footer menee aina sivuston pohjalle
+https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+Tämän vaikutuksen voi nähdä BMI sivulla, jos sen ottaa pois niin footer on sivun
+puolessa välissä.*/
+
+.main{
+    margin: 0 auto;
+    padding-top: 20px;
+    min-height: calc(100vh);
+}
+
+.footer{
+    background-color: #766F57;
+    padding: 2rem;
+}
+
+footer p{
+    color: #fefefe;
+}
+
+/*Tyynyjä sivustolle hieman tuomaan rajoja */
+
+.padding{
+    padding: 1rem;
+}
+
+.padding_bottom{
+    padding-bottom: 3rem;
+}
+.padding_bottom_pieni{
+    padding-bottom: 1.5rem;
+}
+
+/*Navigaatio värit ja muodot */
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(90, 62, 54, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.nav_tausta{
+    background: #33ccff;
+}
+
+.nav-link,
+.dropdown-item{
+    color: #fbf0e9;
+    font-size: 1.8rem;
+}
+
+.nav-link:hover,
+.dropdown-item:hover{
+    color: #003300;
+    font-size: 1.8rem;
+}
+
+/*Buttonit kuntoon */
+btn{
+    text-decoration: none;
+}
+btn:hover{
+    text-decoration: none;
+}
+
+/* facebook symblin väritys oikein joka tourist sivulla */
+.fa-facebook{
+    color: #3b5998;
+    font-size: 3em;
+    padding: .5rem;
+}
+
+.fa-facebook:hover{
+    color:  #d5d5d5;
+}
+
+/*nollaa lista tyylin*/
+.sanaparret {
+  list-style-type: none;
+  padding-left: 1rem;
+}
+
+/* BMI tuloset kortin taustaväri */
+.card_bg{
+    background-color: #fbf0e9;
+    border: 0px;
+}
